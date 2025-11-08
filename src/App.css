@@ -9,15 +9,28 @@
 @theme {
   --color-orange-light: #FF775C;
   --color-orange-bold: #FF2A00;
+  --color-white-light: #E7E7E7;
   --animate-wiggle: wiggle 250ms linear forwards;
+
 
   @keyframes wiggle {
     from{
-        width:48px;
+        width:60px;
     }to{
         width:200px;
     }
   }
+}
+
+.transition-backward{
+  animation: backward 250ms linear ;
+}
+@keyframes backward {
+    from{
+        width:200px;
+    }to{
+        width:60px;
+    }
 }
 
 
