@@ -9,25 +9,15 @@
 @theme {
   --color-orange-light: #FF775C;
   --color-orange-bold: #FF2A00;
+  --animate-wiggle: wiggle 250ms linear forwards;
+
+  @keyframes wiggle {
+    from{
+        width:48px;
+    }to{
+        width:200px;
+    }
+  }
 }
 
 
-/* Animation */
-.nextjs:hover::before{
-
- animation: nextjs-animation 300ms linear forwards; 
-}
-.nextjs::before{
-  background: url(./assets/cross.png);
- 
-
-}
-
-@keyframes nextjs-animation {
-   0%{
-    width:48px;
-   }
-   100%{
-    width:200px;
-   }
-}

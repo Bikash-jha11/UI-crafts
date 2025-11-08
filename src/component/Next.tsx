@@ -3,10 +3,14 @@ import Logo from '../assets/logo.png'
 
 function Next() {
   return (
-    <div className="absolute h-12 w-12  rounded-full   bg-orange-light  before:content-[''] before:absolute before:h-15 before:w-15 before:bg-orange-bold before:rounded-full  before:-z-1 before:top-[-12%] before:left-[-12%] nextjs">
+    <div className="relative h-15 w-15 bg-orange-bold  rounded-full hover:animate-wiggle border border-2">
+        <span></span>
+        <div className='absolute h-12 w-12  rounded-full bg-orange-light left-1 top-1'>
         <img className='p-2' src={Logo}/>
+        </div>
     </div>
   )
 }
+
 
 export default Next;  
