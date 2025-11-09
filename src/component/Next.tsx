@@ -69,7 +69,7 @@ function Next() {
                 <img className='p-2' src={Logo} />
             </div>
             <div className='group ref={handleref}'>
-                <span className="absolute text-nowrap font-medium opacity-0 group-hover:opacity-100 top-4 left-[40%] text-1xl text-white-light  hover:animate-toptext" onMouseEnter={() => handleHover()}> {error-1} <span>Issues</span> </span>
+                <span className="absolute text-nowrap font-medium opacity-0 group-hover:opacity-100 top-4 left-[40%] text-1xl text-white-light  hover:animate-toptext" onMouseEnter={() => handleHover()}> {error - 1} <span>Issues</span> </span>
                 <span className="absolute text-nowrap font-medium  top-8 left-[40%] text-1xl text-white-light " onMouseEnter={() => handleanimation()} ref={ref}>{error} Issues</span>
             </div>
         </div>
