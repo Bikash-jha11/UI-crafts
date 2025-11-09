@@ -11,6 +11,14 @@
   --color-orange-bold: #FF2A00;
   --color-white-light: #E7E7E7;
   --animate-wiggle: wiggle 250ms linear forwards;
+ --animate-toptext: toptext-animation 250ms linear;
+
+  @keyframes toptext-animation {
+    to{
+     display:none;
+    }
+  
+}
 
 
   @keyframes wiggle {
@@ -20,10 +28,14 @@
         width:200px;
     }
   }
-}
-
-.transition-backward{
-  animation: backward 250ms linear ;
+@keyframes text-animation {
+  from{
+       top:32px;
+       opacity:0;
+  }to{
+       top:16px;
+       opacity:1;
+  }
 }
 @keyframes backward {
     from{
@@ -33,4 +45,12 @@
     }
 }
 
+}
+
+.transition-backward{
+  animation: backward 250ms linear ;
+}
+.text-animation{
+  animation: text-animation 1s  linear forwards;
+}
 
