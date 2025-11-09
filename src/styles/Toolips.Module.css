@@ -37,23 +37,44 @@
     backdrop-filter: blur(8px);
     
 }
+.wrapper{
+    position: absolute;
+    width:50px;
+    height:30px;
+    overflow:hidden;
+    top:-110%;
+
+    border-radius: 10px;
+    display: none;
+    
+}
+.wrapper.hover{
+    position: absolute;
+    width:50px;
+    height:30px;
+    overflow:hidden;
+    top:-110%;
+
+    border-radius: 10px;
+}
 
 .names{
     position: absolute;
     width:300px;
-    height:50px;
+    height:30px;
     border:none;
-    border-radius: 40px;
+   
     background: #000000;
     color: white;
     overflow:hidden;
     font-size:20px;
-    top:-110%;
-    left: -15px;
-    
-
+   
+    overflow:hidden;
     display:flex;
     justify-content: space-between;
     align-items: center;
+
+    transform: translateX(px);
  
 }
+
