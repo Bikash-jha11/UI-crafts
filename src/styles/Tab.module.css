@@ -1,0 +1,52 @@
+*{
+    background-color: #303030;
+    font-weight: 400;
+    font-size: 16px;
+    color:white;
+}
+.container {
+ position: relative;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ height:100vh;
+}
+
+.main{
+    position: absolute;
+    width:100vw;
+    height:40px;
+    /* border:1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:4rem;
+    overflow:hidden;
+    /* z-index:1; */
+}
+.text{
+    color: white;
+    z-index:1;
+    background: none;
+}
+
+
+
+.slider{
+    position: absolute;
+    width:80px;
+    height:100%;
+    border-radius: 25px;
+    z-index:0;
+    background: white;
+   
+}
+
