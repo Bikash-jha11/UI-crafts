@@ -1,15 +1,15 @@
 * {
     /* font-size: 18px;
     color: #CFCFCF; */
-   
+
 
 }
 
 .container {
     position: absolute;
-    top:50%;
-    left:50%;
-    translate: -50%,-50%;
+    top: 50%;
+    left: 50%;
+    translate: -50%, -50%;
     width: 0;
     height: 50px;
     text-wrap: nowrap;
@@ -17,12 +17,10 @@
     animation: animate-text 2s linear forwards;
     display: flex;
     gap: 10px;
-  
-}
-
-.text {
 
 }
+
+.text {}
 
 .slider {
     animation: slider 250ms 2s linear forwards;
@@ -51,8 +49,6 @@
 
     to {
         transform: translateY(-50%);
-        background-color: rgba(25, 25, 112,0.8)
-        
+        background-color: rgba(25, 25, 112, 0.8)
     }
 }
-

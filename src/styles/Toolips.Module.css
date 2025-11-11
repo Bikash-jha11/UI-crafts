@@ -1,25 +1,26 @@
-.main{
+.main {
     position: relative;
-  
+
 }
 
-.container{
+.container {
     position: relative;
-    width:270px;
-    height:50px;
-    border:none;
+    width: 270px;
+    height: 50px;
+    border: none;
     border-radius: 40px;
     background: #000000;
     color: white;
-    overflow:hidden;
-    font-size:25px;
+    overflow: hidden;
+    font-size: 25px;
 
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 15px 0px 15px;
-    
+
 }
+
 .icons {
     display: inline-flex;
     justify-content: center;
@@ -29,52 +30,54 @@
     transition: all 0.2s ease-in;
 
 }
-.icons:hover{
-    border-radius:50%;
-    padding:5px;
-    background: rgba(255,255,255,0.2);
-    transform:scale(1.8);
+
+.icons:hover {
+    border-radius: 50%;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.8);
     backdrop-filter: blur(8px);
-    
+
 }
-.wrapper{
+
+.wrapper {
     position: absolute;
-    width:60px;
-    height:30px;
-    overflow:hidden;
-    top:-110%;
+    width: 60px;
+    height: 30px;
+    overflow: hidden;
+    top: -110%;
 
     border-radius: 10px;
     display: none;
-    
+
 }
-.wrapper.hover{
+
+.wrapper.hover {
     position: absolute;
-    width:60px;
-    height:30px;
-    overflow:hidden;
-    top:-110%;
+    width: 60px;
+    height: 30px;
+    overflow: hidden;
+    top: -110%;
 
     border-radius: 10px;
 }
 
-.names{
+.names {
     position: absolute;
-    width:300px;
-    height:30px;
-    border:none;
-   
+    width: 300px;
+    height: 30px;
+    border: none;
+
     background: #000000;
     color: white;
-    overflow:hidden;
-    font-size:20px;
-   
-    overflow:hidden;
-    display:flex;
+    overflow: hidden;
+    font-size: 20px;
+
+    overflow: hidden;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 
     transform: translateX(px);
- 
-}
 
+}

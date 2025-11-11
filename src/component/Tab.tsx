@@ -48,7 +48,7 @@ function Tab() {
                             if (isOverlapping(textpos, sliderpos)) {
                                 text.style.color = 'black';
 
-                            }else{
+                            } else {
                                 text.style.color = 'white'
                             }
                         })

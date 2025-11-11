@@ -1,43 +1,51 @@
-.container{
- display:flex;
- flex-direction: column;
- gap:5px;   
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
-.units{
-    display:flex;
+
+.units {
+    display: flex;
     align-items: center;
-    gap:5px;
-    color:#CFCFCF
+    gap: 5px;
+    color: #CFCFCF
 }
-.line{
- width:40px;
- height:1px;
- background-color: white;
+
+.line {
+    width: 40px;
+    height: 1px;
+    background-color: white;
 }
-.line_animation{
- animation: animate_line 500ms linear reverse;
+
+.line_animation {
+    animation: animate_line 500ms linear reverse;
 }
-.text_animation{
+
+.text_animation {
     transform: translateX(10px);
     transition-duration: 500ms;
 
-     animation: animate_text 500ms linear;
+    animation: animate_text 500ms linear;
 }
-.texts{
-  font-size: 10px;
+
+.texts {
+    font-size: 10px;
 }
 
 @keyframes animate_line {
-    from{
-       width:40px;
+    from {
+        width: 40px;
         background-color: white;
-    }to{
-       width:80px;
-       background-color: #FF5533;
+    }
+
+    to {
+        width: 80px;
+        background-color: #FF5533;
     }
 }
+
 @keyframes animate_text {
-    to{
-    color:#FF5533;
+    to {
+        color: #FF5533;
     }
 }

@@ -1,68 +1,72 @@
-.container{
-    color:white;
+.container {
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
+    height: 100vh;
 }
-.main{
+
+.main {
     /* position: relative; */
-    width:200px;
-    height:40px;
+    width: 200px;
+    height: 40px;
     /* border:1px solid white; */
-    border-radius:15px;
-    overflow:hidden;
+    border-radius: 15px;
+    overflow: hidden;
 }
-.small{
-    display:flex;
+
+.small {
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap:1rem;
-    height:100%;
+    gap: 1rem;
+    height: 100%;
 }
-.outer_volume{
-    
-    height:5px;
-    width:120px;
+
+.outer_volume {
+    height: 5px;
+    width: 120px;
     border-radius: 2px;
     overflow: hidden;
-     background-color: #616161;
+    background-color: #616161;
 
-    
+
 }
-.inner_volume{
+
+.inner_volume {
     background-color: #FFFFFF;
-    width:50%;
-    height:100%;
+    width: 50%;
+    height: 100%;
 }
 
-.big{
+.big {
     position: relative;
     align-items: center;
-    gap:1rem;
-    height:100%;
-    overflow:hidden;
+    gap: 1rem;
+    height: 100%;
+    overflow: hidden;
 }
-.outerbig_volume{
-    position:absolute;
- height:100%;
- width:100%;
-  background-color: #616161;
+
+.outerbig_volume {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #616161;
 
 }
-.speaker{
-  position: absolute;
-  color:white;
-font-size: 25px;
-margin:5px;
-left:5px;
-color: black;
-z-index:1
 
+.speaker {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+    left: 5px;
+    color: black;
+    z-index: 1
 }
-.innerbig_volume{
 
-height:100%;
- width:50%;
- background-color: #CFCFCF;
+.innerbig_volume {
+    height: 100%;
+    width: 50%;
+    background-color: #CFCFCF;
 }

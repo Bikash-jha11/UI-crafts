@@ -1,5 +1,4 @@
-
-.container{
+.container {
 
     /* position: absolute;
     top:90%;
@@ -8,83 +7,91 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
-     background-color: aliceblue;  
-  
+    height: 100vh;
+    background-color: aliceblue;
+
 }
-.main_circle{
-    position:absolute;
-   height:50px;
-   width:50px;
-   border:1px solid black;
-   border-radius: 50%;
-   background: black;
-}
-.content{
+
+.main_circle {
     position: absolute;
     height: 50px;
-    width:50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: black;
+}
+
+.content {
+    position: absolute;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     background-color: black;
-    color:white;
+    color: white;
     transform-origin: bottom left;
-    animation: animate-content 500ms linear forwards; 
+    animation: animate-content 500ms linear forwards;
     background-color: black;
 }
 
-.texts{
+.texts {
     opacity: 0;
-    color:white;
+    color: white;
     animation: text-animation 0s 500ms linear forwards;
     background-color: black;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     flex-direction: column;
-    gap:8px;
-    margin:5px;
+    gap: 8px;
+    margin: 5px;
 }
-.errors{
-    display:flex;
+
+.errors {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.numberoferror{
-     font-size:5px;
-     border-radius: 50%;
-     color:red;
-     background-color: rgba(245, 73, 39,0.2);
-     backdrop-filter: blur(8px);
-}
-.next_js,.error{
-    font-size:5px;
+
+.numberoferror {
+    font-size: 5px;
+    border-radius: 50%;
+    color: red;
+    background-color: rgba(245, 73, 39, 0.2);
+    backdrop-filter: blur(8px);
 }
 
-.next_js
-{
-    color:#CFCFCF
+.next_js,
+.error {
+    font-size: 5px;
 }
-.error{
+
+.next_js {
+    color: #CFCFCF
+}
+
+.error {
     color: white;
 }
 
 @keyframes animate-content {
     0% {
         transform-origin: bottom left;
-        transform: translate(0,0) scale(1);
+        transform: translate(0, 0) scale(1);
     }
+
     100% {
         border-radius: 6px;
-        transform: translate(15px, -70px) scale(3.5,2.5);
-        
+        transform: translate(15px, -70px) scale(3.5, 2.5);
+
     }
-} 
+}
 
 @keyframes text-animation {
-     from{
-        opacity:0;
-     }
-     to{
+    from {
+        opacity: 0;
+    }
+
+    to {
         opacity: 110;
-       
-     }
+
+    }
 }
