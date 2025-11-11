@@ -53,4 +53,7 @@
 .text-animation{
   animation: text-animation 1s  linear forwards;
 }
-
+.goeey{
+  background-color: white;
+  color:black;
+}

@@ -1,8 +1,9 @@
 *{
-    background-color: #303030;
+    /* //uncomment when required */
+    /* background-color: #303030;
     font-weight: 400;
     font-size: 16px;
-    color:white;
+    color:white; */
 }
 .container {
  position: relative;
