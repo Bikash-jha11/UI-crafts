@@ -35,7 +35,7 @@
     gap: 92px;
     margin-top: 12px;
     /* border:1px solid white; */
-    /* cursor: none; */
+    cursor: none;
 }
 
 .line {
@@ -55,8 +55,10 @@
 .events {
     position: absolute;
     width: 100%;
-    height: 0px;
+    height: 5px;
     background-color: #1877F2;
-    top: 0;
-    transform: translateY(-30px);
+  
+    display: none;
+    color:black;
+    padding:10px;
 }
