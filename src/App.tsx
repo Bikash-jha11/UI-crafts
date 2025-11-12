@@ -5,6 +5,7 @@ import Sidebar from './component/Sidebar'
 import TextConversion from './component/TextConversion';
 import Goeey from './component/Goeey';
 import Precision from './component/Precision';
+import Scheduler from './component/Scheduler';
 
 import './App.css'
 import Tab from './component/Tab'
@@ -13,7 +14,7 @@ function App() {
   return (
     <>
       <div className=''>
-        <Precision />
+        <Scheduler />
       </div>
     </>
   )
