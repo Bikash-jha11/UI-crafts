@@ -30,7 +30,6 @@ function Scheduler() {
             const nowAt = e.clientY - rect.top;
             const start = currLenRef.current;
             const cursordiff = Math.abs(nowAt - start)
-            console.log({ "diff is": start - nowAt })
             if (isDragging && eventRef.current) {
                 eventRef.current.style.display = `inline-block`;
                 eventRef.current.style.top = `${mouseY - cursordiff}px`;

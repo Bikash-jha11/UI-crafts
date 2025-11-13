@@ -6,6 +6,7 @@ import TextConversion from './component/TextConversion';
 import Goeey from './component/Goeey';
 import Precision from './component/Precision';
 import Scheduler from './component/Scheduler';
+import Xray from './component/Xray';
 
 import './App.css'
 import Tab from './component/Tab'
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
       <div className=''>
-        <Scheduler />
+        <Xray />
       </div>
     </>
   )

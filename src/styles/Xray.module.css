@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    position: relative;
+    height: 350px;
+    width: 500px;
+    cursor: pointer;
+    /* border:1px solid white; */
+}
+
+.text_box {
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    
+}
+
+.text {
+    font-size: 50px;
+    font-weight: 600;
+   
+}
+.extra{
+     -webkit-text-stroke-color: rgb(31, 81, 255);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.slider {
+    position: absolute;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    border-top: 4px solid rgb(31, 81, 255);
+    z-index: 1;
+    background-color: rgba(31, 81, 255, 0.2);
+}
