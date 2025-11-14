@@ -7,6 +7,8 @@ import Goeey from './component/Goeey';
 import Precision from './component/Precision';
 import Scheduler from './component/Scheduler';
 import Xray from './component/Xray';
+import Diary from './component/Diary';
+import Carousel from './component/Carousel';
 
 import './App.css'
 import Tab from './component/Tab'
@@ -15,7 +17,7 @@ function App() {
   return (
     <>
       <div className=''>
-        <Xray />
+        <Carousel />
       </div>
     </>
   )

@@ -1,0 +1,114 @@
+* {
+    background: whitesmoke;
+    color: black;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.main {
+    position: absolute;
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 600px;
+    padding: 50px 20px 0 20px;
+
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    /* animation:blur-animation 2s linear forwards infinite; */
+}
+
+.first::-webkit-scrollbar {
+    display: none;
+}
+
+.second::-webkit-scrollbar {
+    display: none;
+}
+
+.third::-webkit-scrollbar {
+    display: none;
+}
+
+
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    height: 60px;
+    overflow-y: scroll;
+
+    /* border: 1px solid black; */
+}
+
+.first_scrollable {
+    animation: first-animation 6s linear forwards infinite;
+}
+
+@keyframes first-animation {
+    from {
+        transform: translateY(0%);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+
+
+
+.second {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    height: 60px;
+    overflow-y: scroll;
+    /* border: 1px solid black; */
+}
+
+.second_scrollable {
+    animation: first-animation 6s linear 1s forwards infinite;
+}
+
+
+
+
+
+.third {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    height: 70px;
+    overflow-y: scroll;
+    /* border: 1px solid black; */
+}
+
+.third_scrollable {
+    animation: first-animation 6s linear 2s infinite;
+}
+
+@keyframes blur-animation {
+    from {
+        filter: blur(0px)
+    }
+
+    to {
+        filter: blur(2px)
+    }
+}
