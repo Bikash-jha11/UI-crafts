@@ -9,15 +9,14 @@ import Scheduler from './component/Scheduler';
 import Xray from './component/Xray';
 import Diary from './component/Diary';
 import Carousel from './component/Carousel';
+import Minimap from './component/Minimap';
 
-import './App.css'
-import Tab from './component/Tab'
 
 function App() {
   return (
     <>
       <div className=''>
-        <Carousel />
+        <Minimap />
       </div>
     </>
   )
