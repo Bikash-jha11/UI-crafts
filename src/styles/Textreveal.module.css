@@ -1,0 +1,84 @@
+* {}
+
+.container {
+    padding: 50px;
+}
+
+.main {
+    position: relative;
+    width: 18px;
+    height: 80px;
+    /* border: 1px solid white; */
+    overflow: hidden;
+    animation: text-animation 2s linear forwards;
+}
+
+.text {
+    position: absolute;
+    /* border: 1px solid white; */
+    padding: 10px;
+    text-wrap: nowrap;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.io {
+    font-weight: bold;
+}
+
+.light {
+    color: #CFCFCF;
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 600;
+    ;
+}
+
+.btn {
+    background-color: aliceblue;
+    border-radius: 15px;
+    color: #3D3D3D;
+    padding: 3px;
+    font-weight: 400;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+    transition: box-shadow 0.3s ease;
+}
+
+
+
+.blurarea {
+    position: absolute;
+    right: 50%;
+    height: 100%;
+    width: 80px;
+    left: 0%;
+    /* border: 1px solid white; */
+    backdrop-filter: blur(2px);
+    z-index: 10;
+    animation: blur-animation 2s linear forwards;
+}
+
+@keyframes text-animation {
+    from {
+        width: 18px;
+    }
+
+    to {
+        width: 420px;
+    }
+}
+
+@keyframes blur-animation {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 100%;
+    }
+}

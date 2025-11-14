@@ -10,13 +10,14 @@ import Xray from './component/Xray';
 import Diary from './component/Diary';
 import Carousel from './component/Carousel';
 import Minimap from './component/Minimap';
+import TextReveal from './component/TextReveal';
 
 
 function App() {
   return (
     <>
       <div className=''>
-        <Minimap />
+        <TextReveal />
       </div>
     </>
   )
