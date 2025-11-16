@@ -11,13 +11,14 @@ import Diary from './component/Diary';
 import Carousel from './component/Carousel';
 import Minimap from './component/Minimap';
 import TextReveal from './component/TextReveal';
+import Wheelinput from './component/Wheelinput';
 
 
 function App() {
   return (
     <>
       <div className=''>
-        <TextReveal />
+        <Wheelinput />
       </div>
     </>
   )
