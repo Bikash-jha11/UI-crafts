@@ -12,13 +12,14 @@ import Carousel from './component/Carousel';
 import Minimap from './component/Minimap';
 import TextReveal from './component/TextReveal';
 import Wheelinput from './component/Wheelinput';
+import Radialmenu from './component/Radialmenu';
 
 
 function App() {
   return (
     <>
       <div className=''>
-        <Wheelinput />
+        <Radialmenu />
       </div>
     </>
   )
