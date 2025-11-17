@@ -14,14 +14,14 @@ import TextReveal from './component/TextReveal';
 import Wheelinput from './component/Wheelinput';
 import Radialmenu from './component/Radialmenu';
 import Mailbox from './component/Mailbox';
-import Physics from './component/Physics';
+
 
 
 function App() {
   return (
     <>
       <div className=''>
-        <Physics />
+        <Mailbox />
       </div>
     </>
   )
